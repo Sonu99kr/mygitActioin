@@ -2,8 +2,13 @@ import java.util.Scanner;
 
 public final class AddNumbers {
 
-    private AddNumbers() {}
+    private AddNumbers() { }
 
+    /**
+     * The main method.
+     *
+     * @param args command-line arguments
+     */
     public static void main(final String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter first number: ");
